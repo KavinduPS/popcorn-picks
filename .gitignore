@@ -1,0 +1,25 @@
+# === Global ===
+.DS_Store
+.env
+*.env
+*.log
+
+# === Python (model + backend) ===
+venv/
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Jupyter Notebook checkpoints
+model/.ipynb_checkpoints/
+
+# === Node (frontend) ===
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# === VSCode (optional, dev-specific) ===
+.vscode/
+
+# === OS-specific ===
+Thumbs.db
